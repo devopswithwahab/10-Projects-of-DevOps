@@ -1,0 +1,34 @@
+**Day 5: Introduction to CI/CD**
+
+Welcome to Day 5 of the 10-Day DevOps Challenge! Today, we dive into the world of Continuous Integration and Continuous Deployment (CI/CD), an essential practice in modern software development.
+
+**1. What is CI/CD?**
+
+CI/CD is a set of practices used by development teams to automate the process of integrating code changes into a shared repository (Continuous Integration) and deploying those changes to production environments (Continuous Deployment) in a rapid and reliable manner.
+
+**2. What Problem Does it Solve?**
+
+CI/CD solves several common challenges faced by development teams, including:
+- Manual and error-prone deployment processes
+- Long release cycles leading to delayed feedback
+- Difficulty in identifying and resolving integration issues
+- Inconsistent development environments across teams
+
+**3. The 5 Stages of CI/CD:**
+
+- **Continuous Integration (CI):** The practice of frequently merging code changes into a shared repository, where automated tests are run to validate the changes.
+- **Continuous Build:** The process of automatically compiling code, running unit tests, and generating artifacts upon each code commit.
+- **Continuous Deployment:** The automation of deploying code changes to production or staging environments after passing all tests.
+- **Continuous Testing:** The ongoing process of running automated tests at various stages of the CI/CD pipeline to ensure code quality and functionality.
+- **Continuous Delivery:** The ability to release code changes to production environments quickly and safely, often with the click of a button.
+
+**4. Steps to Setup Infrastructure:**
+
+To set up the infrastructure for CI/CD, follow these steps:
+- Launch three Ubuntu EC2 instances named DevServer, QAServer, and ProdServer.
+- Connect to the DevServer and install Java, Jenkins, Git, and Maven.
+- Connect to the QAServer and install Tomcat.
+- Connect to the ProdServer and install Tomcat.
+- Configure Jenkins on the DevServer to automate the CI/CD pipeline.
+
+By implementing CI/CD practices, you can streamline your development process, improve code quality, and deliver software faster and more reliably. Stay tuned for Day 6, where we'll dive deeper into configuring Jenkins for CI/CD automation.
