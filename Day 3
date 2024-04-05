@@ -1,0 +1,82 @@
+**Day 3: Exploring Version Control with Git**
+
+Welcome to Day 3 of the 10 Day DevOps Challenge! Today, we'll dive into the world of version control using Git.
+
+**1. Introduction to Git:**
+
+Git is a distributed version control system that allows you to track changes in your codebase, collaborate with others, and manage different versions of your project.
+
+**2. Git Init Command:**
+
+To start using Git in a new project directory, use the `git init` command:
+```
+git init
+```
+
+**3. Git Config Command:**
+
+The `git config` command is used to configure Git settings, such as user name and email:
+```
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+```
+
+**4. Git Add:**
+
+The `git add` command is used to stage changes for commit:
+```
+git add filename
+```
+
+**5. Git Commit:**
+
+The `git commit` command is used to save staged changes to the local repository:
+```
+git commit -m "Commit message"
+```
+
+**6. Creating a Branch in Git: Git Branch:**
+
+To create a new branch in Git, use the `git branch` command:
+```
+git branch branchname
+```
+
+**7. Merging Branch into Main: Git Merge:**
+
+To merge changes from one branch into another, use the `git merge` command:
+```
+git checkout main
+git merge branchname
+```
+
+**8. Git Rebase:**
+
+The `git rebase` command is used to reapply commits from one branch to another:
+```
+git checkout branchname
+git rebase main
+```
+
+**9. Git Cherrypick:**
+
+The `git cherry-pick` command is used to apply a specific commit from one branch to another:
+```
+git cherry-pick commit-hash
+```
+
+**10. Git Amend:**
+
+The `git commit --amend` command is used to modify the last commit message or add changes to it:
+```
+git commit --amend
+```
+
+**11. Git Roll Back to Previous Commit:**
+
+To roll back to a previous commit, use the `git reset` command:
+```
+git reset --hard commit-hash
+```
+
+Congratulations on completing Day 3! Practice these Git commands to effectively manage your project's version control. Tomorrow, we'll explore continuous integration and continuous deployment.
