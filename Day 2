@@ -1,0 +1,62 @@
+**Day 2: Exploring Linux Commands and Permissions**
+
+Welcome back to Day 2 of the Linux Project Creation Challenge! Today, we'll explore some essential commands and permissions in Linux.
+
+**1. Print Current User:**
+
+To print the current user, simply use the `whoami` command:
+```
+whoami
+```
+
+**2. Understanding $ and # Prompt:**
+
+In the Bash terminal, the prompt symbol indicates the type of user:
+- `$` prompt: Indicates a regular user.
+- `#` prompt: Indicates the root user (superuser) with administrative privileges.
+
+**3. Using Sudo:**
+
+The `sudo` command allows users to perform tasks with superuser privileges. Use it before any command that requires elevated permissions:
+```
+sudo command
+```
+
+**4. Date and Cal Commands:**
+
+To display the current date and time, use the `date` command:
+```
+date
+```
+To display a calendar for the current month, use the `cal` command:
+```
+cal
+```
+
+**5. Chmod Command:**
+
+The `chmod` command is used to change file permissions. There are two methods to specify permissions:
+- **Alphabetical Method:** 
+  ```
+  chmod permissions filename
+  ```
+- **Numerical Method:**
+  ```
+  chmod mode filename
+  ```
+
+**6. Pipe Command:**
+
+The pipe command (`|`) is used to combine multiple commands and redirect the output of one command as input to another:
+```
+command1 | command2
+```
+
+**7. Word Count:**
+
+To count the number of words, lines, and characters in a file, use the `wc` command:
+```
+wc filename
+```
+
+Congratulations on completing Day 2! Practice these commands to become more proficient in Linux. Tomorrow, we'll delve into more advanced Linux topics.
