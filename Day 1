@@ -1,0 +1,73 @@
+**Day 1: Getting Started with Ubuntu Linux EC2 Instance**
+
+Welcome to Day 1 of the Linux Project Creation Challenge! Today, we'll dive into the basics of connecting to an Ubuntu Linux EC2 instance using the Bash terminal.
+
+**Step 1: Connect to your Ubuntu Linux EC2 Instance**
+
+1. Open your terminal (Bash).
+2. Locate the private key (.pem) file associated with your EC2 instance.
+3. Use the SSH command to connect to your EC2 instance:
+   ```
+   ssh -i /path/to/private-key.pem ubuntu@your-ec2-instance-ip
+   ```
+   Replace `/path/to/private-key.pem` with the path to your private key file, and `your-ec2-instance-ip` with your EC2 instance's public IP address.
+
+**Step 2: Basic File Operations**
+
+Now that you're connected to your EC2 instance, let's perform some basic file operations:
+
+1. **Create a Directory:**
+   ```
+   mkdir mydirectory
+   ```
+
+2. **Create a File:**
+   ```
+   touch myfile.txt
+   ```
+
+3. **Print Working Directory:**
+   ```
+   pwd
+   ```
+
+4. **Delete a File:**
+   ```
+   rm myfile.txt
+   ```
+
+5. **Delete a Directory:**
+   ```
+   rmdir mydirectory
+   ```
+
+**Step 3: File Permissions**
+
+Understanding and managing file permissions is crucial in Linux:
+
+1. **Review File Permissions:**
+   ```
+   ls -l
+   ```
+
+2. **Change File Permissions:**
+   ```
+   chmod permissions filename
+   ```
+   Replace `permissions` with the desired permissions (e.g., `u+x` to add execute permission for the owner) and `filename` with the name of the file.
+
+**Step 4: Linux Filesystem**
+
+Take a moment to explore the Linux filesystem and understand its structure. Use commands like `ls`, `cd`, and `pwd` to navigate through directories.
+
+**Step 5: Copy Files**
+
+Finally, let's copy files from one directory to another:
+
+```
+cp source-file destination-directory
+```
+
+Replace `source-file` with the name of the file you want to copy and `destination-directory` with the directory where you want to paste the file.
+
+Congratulations on completing Day 1 of the Linux Project Creation Challenge! Tomorrow, we'll dive deeper into Linux system administration tasks.
